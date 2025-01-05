@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="project.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>BLACKPINK FANSITE</title>
+        
+        <style>
+            
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            margin: 0; 
+            padding: 0;
+            background-image:url(gamba/blckwall.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: -1;
+        }
+
+        body::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: .2;
+            z-index: -1;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            padding: 1px 90px;
+            box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 1px solid #fff;
+            z-index: 2;
+        }
+
+        nav .logo {
+            padding: 22px 10px;
+            height: 40px;
+            float: left;
+        }
+
+        nav ul{
+            float: right;
+            margin: 0;
+            padding: 30px;
+            display: flex;
+        }
+
+        nav ul li a{
+            line-height: none;
+            color: pink;
+            padding: 2% 10px;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.8s;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline overline;
+            border-radius: 20px;
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+        .pic1 {
+            background-attachment: fixed;
+        }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        
+ 
+        <nav>
+            <div class="logo"><a href="index.html"><img src="gamba/logo.png" style="width: 60%;"></a></div> 
+            <ul type="none">
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="videos.html">VIDEOS</a></li> 
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav> 
+
+        <div class="content1">
+                <h4>BLACKPINK</h4>
+                <h1>BORN PINK</h1>
+                <a href="videos.html" id="link">PLAY NOW</a>
+        </div>  
+        
+        <div class="content2">
+            <div id="bckgrnd">
+                <div class="row">
+                    <div>
+                        <img src="gamba/shop%20store.png" width="30%">
+                    </div>
+                    <div data-aos="zoom-in-down">
+                    <div class="column">
+                        <img src="gamba/pic-1.jpg" width="100%" heigth="50%" class="pic">
+                        <div class="text">
+                            <a href="https://shop.blackpinkmusic.com/products/born-pink-standard-digipack-jisoo?utm_campaign=products&utm_medium=referral&utm_source=blackpinkmusic.com">BORN PINK STANDARD DIGIPACK – JISOO<br><br>
+                            $26.00
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                    
+                   <div data-aos="zoom-in-down">
+                    <div class="column">
+                        <img src="gamba/pic-2.jpg" width="100%" heigth="50%" class="pic1">
+                        <div class="text">
+                            <a href="https://shop.blackpinkmusic.com/products/born-pink-standard-digipack-jennie?utm_campaign=products&utm_medium=referral&utm_source=blackpinkmusic.com">BORN PINK STANDARD DIGIPACK – JENNIE:<br><br>
+                            $26.00
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                        
+                    <div data-aos="zoom-in-down">
+                    <div class="column">
+                        <img src="gamba/pic-3.jpg" width="100%" heigth="50%" class="pic">
+                        <div class="text">
+                           <a href="https://shop.blackpinkmusic.com/products/born-pink-standard-digipack-rose?utm_campaign=products&utm_medium=referral&utm_source=blackpinkmusic.com">BORN PINK STANDARD DIGIPACK – ROSÉ:<br><br>
+                            $26.00
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                        
+                    <div data-aos="zoom-in-down">
+                    <div class="column">
+                        <img src="gamba/pic-4.jpg" width="100%" heigth="50%" class="pic1">
+                        <div class="text" >
+                           <a href="https://shop.blackpinkmusic.com/products/born-pink-standard-digipack-lisa?utm_campaign=products&utm_medium=referral&utm_source=blackpinkmusic.com"> BORN PINK STANDARD DIGIPACK – LISA:<br><br>
+                            $26.00
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Example Company of blackpink.</p>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        
+    </body>
+    
+    
+    
+</html>

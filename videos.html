@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="project.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>BLACKPINK FANSITE</title>
+        
+        <style>
+            
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            margin: 0; 
+            padding: 0;
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: -1;
+        }
+
+        body::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: .2;
+            z-index: -1;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            padding: 1px 90px;
+            box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 1px solid #fff;
+            z-index: 2;
+        }
+
+        nav .logo {
+            padding: 22px 10px;
+            height: 40px;
+            float: left;
+        }
+
+        nav ul{
+            float: right;
+            margin: 0;
+            padding: 30px;
+            display: flex;
+        }
+
+        nav ul li a{
+            line-height: none;
+            color: pink;
+            padding: 2% 10px;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.8s;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline overline;
+            border-radius: 20px;
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+        .pic1 {
+            background-attachment: fixed;
+        }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        
+ 
+        <nav>
+            <div class="logo"><a href="index.html"><img src="gamba/logo.png" style="width: 60%;"></a></div> 
+            <ul type="none">
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="videos.html">VIDEOS</a></li> 
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav> 
+
+        <div>
+            <video width="100%" autoplay loop muted class="trailer">
+                <source src="video/edittrailer.mp4">
+            </video>
+        </div>  
+ 
+        <div>
+        <div class="slide-frame">
+            <div class="slide-video">
+                <img src="gamba/title-videos.png" id="videos">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1900">
+                <div class="video-contain">
+                    <video width="50%" controls poster="gamba/pinkvenom.png" class="video1">
+                        <source src="video/venom.mp4">
+                    </video>
+                </div>
+                </div>
+                
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1900">
+
+                <div class="video-contain">
+                    <video width="50%" controls poster="gamba/shutdown.png" class="video2">
+                        <source src="video/shutdown.mp4">
+                    </video>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+        
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Example Company of blackpink.</p>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    
+        
+    </body>
+    
+    
+    
+</html>
